@@ -27,6 +27,7 @@ public class ArithmeticTest {
 	@Test
 	public void addTest(){
 		assertEquals(30, ar.add(20,10));
+		System.out.println("Changes made");
 	}
 	
 	@Test
