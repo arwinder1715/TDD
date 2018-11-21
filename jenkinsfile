@@ -4,18 +4,18 @@ pipeline {
  stages{
  	
  	stage('Compile stage'){
- 		steps{echo "Inside Compile Stage"}
+ 		steps{echo "Inside Compile Stage1"}
  		
  		}
  	
    stage ('Testing Stage'){
-   		steps{echo "Inside Testing Stage"}
+   		steps{echo "Inside Testing Stage1"}
    		
  		
    }	
    
    stage ('Deployment Stage'){
-   		steps{echo "Inside Deployment Stage"}
+   		steps{echo "Inside Deployment Stage1"}
  		
    }	
    
