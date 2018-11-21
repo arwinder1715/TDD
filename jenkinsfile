@@ -4,18 +4,19 @@ pipeline {
  stages{
  	
  	stage('Compile stage'){
- 	
- 		echo "here"
+ 		steps{echo "here"}
+ 		
  		}
  	
    stage ('Testing Stage'){
-   		echo "again"
+   		steps{echo "again"}
+   		
  		
    }	
    
    stage ('Deployment Stage'){
-   		
- 		echo "abc"
+   		steps{echo "abc"}
+ 		
    }	
    
  }
