@@ -20,7 +20,7 @@ public class ArithmeticTest {
 	
 	@Before
 	public void init(){
-		System.out.println("Initial Stage");
+		System.out.println("Initial Stage123");
 		
 	}
 	
