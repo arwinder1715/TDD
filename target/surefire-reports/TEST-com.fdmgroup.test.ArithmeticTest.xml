@@ -1,177 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.fdmgroup.test.ArithmeticTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.fdmgroup.test.ArithmeticTest" time="0.002" errors="0" skipped="0">
   <properties>
-    <property name="DISPLAY" value="needs-to-be-defined"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="MINGW_CHOST" value="x86_64-w64-mingw32"/>
-    <property name="LOGONSERVER" value="\\ADCTOR001"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Progra~1\Java\jdk1.8.0_181\jre"/>
-    <property name="ACLOCAL_PATH" value="C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal"/>
-    <property name="MSYSTEM" value="MINGW64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="PWD" value="C:/apache-tomcat-7.0.64/bin"/>
-    <property name="JENKINS_URL" value="http://localhost:8088/jenkins/"/>
-    <property name="PRINTER" value="Send To OneNote 2010"/>
-    <property name="VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.endorsed.dirs" value="C:\Progra~1\Java\jdk1.8.0_181\jre\lib\endorsed"/>
-    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\"/>
-    <property name="=::" value="::\"/>
-    <property name="USERDOMAIN" value="FDMGROUP"/>
-    <property name="ORIGINAL_PATH" value="C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;H:\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\MSBuild\12.0\Bin;C:\Windows\system32\config\systemprofile\Documents\OracleBase\product\12.1.0\client_1;C:\Windows\system32\config\systemprofile\Documents\OracleBase\product\12.1.0\client_1\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\IBM\Client Access\Emulator;C:\Program Files\IBM\Client Access\Shared;C:\Program Files\IBM\Client Access;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.2.5\bin;C:\apache-tomcat-7.0.64\bin;C:\apache-tomcat-8.0.26\bin;C:\Progra~1\Java\jdk1.8.0_181;%JAVAHOME%\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\SlikSvn\bin;C:\Program Files\Git\cmd;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm"/>
-    <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="PKG_CONFIG_PATH" value="C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig"/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="java.version" value="1.8.0_181"/>
-    <property name="JOB_NAME" value="JenkinsMaven"/>
-    <property name="COMPUTERNAME" value="TRNTOR40146"/>
-    <property name="SYSTEMDRIVE" value="C:"/>
-    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\"/>
-    <property name="CONFIG_SITE" value="C:/Program Files/Git/mingw64/etc/config.site"/>
-    <property name="user.name" value="Sukhbir.Singh"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="org.jenkinsci.plugins.pipeline.maven.reportsFolder" value="C:\Jin\Jenkins\workspace\TDDMaven@tmp\withMaven341a844c"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="LDMS_PREFERRED_SERVER" value="ACO-LDM001.acofdmmgmt.com"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="LOCALAPPDATA" value="C:\Users\Sukhbir.Singh\AppData\Local"/>
-    <property name="MSYSTEM_CARCH" value="x86_64"/>
-    <property name="user.timezone" value="America/New_York"/>
-    <property name="INFOPATH" value="C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info"/>
-    <property name="user.script" value=""/>
+    <property name="sun.boot.library.path" value="C:\Jin\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Jin\Jenkins\workspace\TDDMaven"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
-    <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="BUILD_TAG" value="jenkins-JenkinsMaven-2"/>
-    <property name="TERM" value="xterm"/>
-    <property name="windows_tracing_flags" value="3"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
-    <property name="PATH" value="H:\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;H:\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\MSBuild\12.0\Bin;C:\Windows\system32\config\systemprofile\Documents\OracleBase\product\12.1.0\client_1;C:\Windows\system32\config\systemprofile\Documents\OracleBase\product\12.1.0\client_1\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\IBM\Client Access\Emulator;C:\Program Files\IBM\Client Access\Shared;C:\Program Files\IBM\Client Access;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.2.5\bin;C:\apache-tomcat-7.0.64\bin;C:\apache-tomcat-8.0.26\bin;C:\Progra~1\Java\jdk1.8.0_181;%JAVAHOME%\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\SlikSvn\bin;C:\Program Files\Git\cmd;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\apache-maven-3.2.5\ C:\apache-tomcat-7.0.64\webapps\jenkins\WEB-INF\lib\remoting-2.52.jar C:\Users\Sukhbir.Singh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\Sukhbir.Singh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 65137"/>
-    <property name="HUDSON_URL" value="http://localhost:8088/jenkins/"/>
-    <property name="JENKINS_SERVER_COOKIE" value="4f35a12eee0181cc"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
-    <property name="PLINK_PROTOCOL" value="ssh"/>
-    <property name="GIT_COMMIT" value="61200efcae72adec4c5b8cc17d264a2d19698a73"/>
-    <property name="MANPATH" value="C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man"/>
-    <property name="java.io.tmpdir" value="C:\Users\SUKHBI~1.SIN\AppData\Local\Temp\"/>
-    <property name="APPDATA" value="C:\Users\Sukhbir.Singh\AppData\Roaming"/>
-    <property name="user.language" value="en"/>
-    <property name="SYSTEMROOT" value="C:\Windows"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Jin\Jenkins\workspace\TDDMaven"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Jin\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://localhost:8088/jenkins/job/JenkinsMaven/2/"/>
-    <property name="M2_REPO" value="C:\MavenRepository"/>
-    <property name="SHLVL" value="2"/>
-    <property name="M2_HOME" value="C:\apache-maven-3.2.5\"/>
-    <property name="COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="HUDSON_SERVER_COOKIE" value="4f35a12eee0181cc"/>
-    <property name="JRE_HOME" value="C:\Progra~1\Java\jdk1.8.0_181\jre"/>
-    <property name="MAVEN_HOME" value="C:\apache-maven-3.2.5\"/>
-    <property name="SESSIONNAME" value="Console"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="maven3.interceptor.common" value="C:\Users\Sukhbir.Singh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="ORIGINAL_TEMP" value="C:/Users/SUKHBI~1.SIN/AppData/Local/Temp"/>
-    <property name="HOMEPATH" value="\"/>
-    <property name="TMPDIR" value="C:\Users\SUKHBI~1.SIN\AppData\Local\Temp"/>
-    <property name="TNS_ADMIN" value="C:\oraclexe\app\oracle\product\10.2.0\server\NETWORK\ADMIN"/>
-    <property name="os.name" value="Windows 7"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="FP_NO_HOST_CHECK" value="NO"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="2"/>
-    <property name="maven3.interceptor" value="C:\Users\Sukhbir.Singh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
-    <property name="java.library.path" value="C:\Progra~1\Java\jdk1.8.0_181\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.2.5\/bin;H:\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;H:\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\MSBuild\12.0\Bin;C:\Windows\system32\config\systemprofile\Documents\OracleBase\product\12.1.0\client_1;C:\Windows\system32\config\systemprofile\Documents\OracleBase\product\12.1.0\client_1\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\IBM\Client Access\Emulator;C:\Program Files\IBM\Client Access\Shared;C:\Program Files\IBM\Client Access;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.2.5\bin;C:\apache-tomcat-7.0.64\bin;C:\apache-tomcat-8.0.26\bin;C:\Progra~1\Java\jdk1.8.0_181;%JAVAHOME%\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\SlikSvn\bin;C:\Program Files\Git\cmd;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
-    <property name="HOMEDRIVE" value="H:"/>
-    <property name="HOMESHARE" value="\\FILNYC002\ustrainees\Sukhbir.Singh"/>
-    <property name="POM_GROUPID" value="com.fdmgroup"/>
-    <property name="POM_ARTIFACTID" value="TDDWithMaven"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="JOB_URL" value="http://localhost:8088/jenkins/job/JenkinsMaven/"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="9d281c0389ed71ed467f2fb1daf890e4b05160d2"/>
-    <property name="MINGW_PACKAGE_PREFIX" value="mingw-w64-x86_64"/>
-    <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="JENKINS_HOME" value="C:\Users\Sukhbir.Singh\.jenkins"/>
-    <property name="BUILD_ID" value="2"/>
-    <property name="TEMP" value="C:\Users\SUKHBI~1.SIN\AppData\Local\Temp"/>
-    <property name="sun.boot.library.path" value="C:\Progra~1\Java\jdk1.8.0_181\jre\bin"/>
-    <property name="MSYSTEM_PREFIX" value="C:/Program Files/Git/mingw64"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="user.variant" value=""/>
-    <property name="PROCESSOR_REVISION" value="3c03"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="HUDSON_HOME" value="C:\Users\Sukhbir.Singh\.jenkins"/>
-    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="9d281c0389ed71ed467f2fb1daf890e4b05160d2"/>
-    <property name="COMSPEC" value="C:\Windows\system32\cmd.exe"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="PATH+MAVEN" value="C:\apache-maven-3.2.5\/bin"/>
-    <property name="GTK_BASEPATH" value="C:\Program Files (x86)\GtkSharp\2.12\"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="JAVA_HOME" value="C:\Progra~1\Java\jdk1.8.0_181"/>
-    <property name="SHELL" value="C:\Program Files\Git\usr\bin\bash"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="PROGRAMFILES" value="C:\Program Files"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="USERPROFILE" value="C:\Users\Sukhbir.Singh"/>
-    <property name="java.ext.dirs" value="C:\Progra~1\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="os.version" value="6.1"/>
-    <property name="user.home" value="C:\Users\Sukhbir.Singh"/>
-    <property name="USERNAME" value="Sukhbir.Singh"/>
-    <property name="_" value="C:\Progra~1\Java\jdk1.8.0_181\jre/bin/java"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="USERDNSDOMAIN" value="FDMGROUP.LOCAL"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="user.dir" value="C:\Users\Sukhbir.Singh\JavaEclipseWorkspace\TDDWithMaven"/>
-    <property name="SSH_ASKPASS" value="C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="TMP" value="C:\Users\SUKHBI~1.SIN\AppData\Local\Temp"/>
-    <property name="MINGW_PREFIX" value="C:/Program Files/Git/mingw64"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="LC_ALL" value="C"/>
-    <property name="java.vm.version" value="25.181-b13"/>
-    <property name="java.class.path" value="C:\Users\Sukhbir.Singh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar;C:\apache-maven-3.2.5/conf/logging"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="WORKSPACE" value="C:\Users\Sukhbir.Singh\.jenkins\workspace\JenkinsMaven"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.runtime.version" value="1.8.0_181-b13"/>
-    <property name="sun.boot.class.path" value="C:\Progra~1\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Progra~1\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Progra~1\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Progra~1\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Progra~1\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Progra~1\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Progra~1\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Progra~1\Java\jdk1.8.0_181\jre\classes"/>
-    <property name="user.country" value="GB"/>
-    <property name="MSYSTEM_CHOST" value="x86_64-w64-mingw32"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="LDMS_LOCAL_DIR" value="C:\Program Files (x86)\LANDesk\LDClient\Data"/>
-    <property name="maven.home" value="C:\apache-maven-3.2.5"/>
-    <property name="EXEPATH" value="C:\Program Files\Git"/>
-    <property name="ORIGINAL_TMP" value="C:/Users/SUKHBI~1.SIN/AppData/Local/Temp"/>
-    <property name="HOSTNAME" value="TRNTOR40146"/>
-    <property name="HOME" value="H:\"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="WINDIR" value="C:\Windows"/>
-    <property name="POM_DISPLAYNAME" value="TDDWithMaven"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Jin\Jenkins\workspace\TDDMaven@tmp\withMaven341a844c\pipeline-maven-spy.jar"/>
+    <property name="classworlds.conf" value="C:\Jin\Maven\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Jin\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Jin\Jenkins\workspace\TDDMaven@tmp\withMaven341a844c;C:\Jin\Java\jdk1.8.0_191\bin;C:\Windows\System32;."/>
+    <property name="maven.conf" value="C:\Jin\Maven\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Jin\Maven\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="DESKTOP-ALFLD9C$"/>
+    <property name="java.class.path" value="C:\Jin\Maven\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="GIT_URL" value="https://github.com/SukhbirSaran/TDDWithMaven.git"/>
+    <property name="java.home" value="C:\Jin\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher --batch-mode --show-version clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Jin\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Jin\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Jin\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Jin\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Jin\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Jin\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Jin\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Jin\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Jin\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Jin\Maven\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.fdmgroup.test.ArithmeticTest" name="subTest" time="0.003"/>
+  <testcase classname="com.fdmgroup.test.ArithmeticTest" name="subTest" time="0.002"/>
   <testcase classname="com.fdmgroup.test.ArithmeticTest" name="addTest" time="0"/>
 </testsuite>
